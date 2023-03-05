@@ -1,0 +1,27 @@
+.postFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+
+.filterItem {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.activeFilter {
+    background: var(--second-color);
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}

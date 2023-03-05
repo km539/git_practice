@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/post.css">
+    <script src="https://kit.fontawesome.com/1325c2723b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <p>demo</p>
+    <header>
+        <div class="nav container">
+
+            <a href="" class="logo">Blog</a>
+            <a href="" class="login">Login</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="homeText container">
+            <h2 class="homeTitle">My Blog</h2>
+            <span class="homeSubtitle">This is about my day blog</span>
+        </div>
+    </section>
+
+    <div class="postFilter container">
+        <span class="filterItem activeFilter" data-filter="all">All</span>
+        <span class="filterItem" data-filter="coffee">Coffee</span>
+        <span class="filterItem" data-filter="football">Football</span>
+        <span class="filterItem" data-filter="tech">Tech</span>
+    </div>
+
+    <section class="post container">
+        <div class="postBox">
+            <img src="images/football.webp" alt="" class="postImg">
+            <h2 class="category">Football</h2>
+            <a href="src/post.html" class="postTitle">
+                Weekly football review and analyze
+            </a>
+            <span class="postDate">6 Mar 2023</span>
+            <p class="postDecription">Arsenal 3-2 Bournemouth Dramatic Win After Two-Goal Deficit</p>
+            <div class="headline">
+                <img src="images/headline.jpeg" class="headlineImg">
+                <span class="headlineName">Reiss Nelson</span>
+            </div>
+        </div>
+
+        <div class="postBox">
+            <img src="images/coffee.jpeg" alt="" class="postImg">
+            <h2 class="category">Coffee</h2>
+            <a href="src/post.html" class="postTitle">
+                Recent My favorite Coffee Beans
+            </a>
+            <span class="postDate">4 Mar 2023</span>
+            <p class="postDecription">Arsenal 3-2 Bournemouth Dramatic Win After Two-Goal Deficit</p>
+            <div class="headline">
+                <img src="images/headline.jpeg" class="headlineImg">
+                <span class="headlineName">Reiss Nelson</span>
+            </div>
+        </div>
+
+        <div class="postBox">
+            <img src="images/tech.jpeg" alt="" class="postImg">
+            <h2 class="category">Tech</h2>
+            <a href="src/post.html" class="postTitle">
+                Any Tech Info Update
+            </a>
+            <span class="postDate">4 Jan 2023</span>
+            <p class="postDecription">Arsenal 3-2 Bournemouth Dramatic Win After Two-Goal Deficit</p>
+            <div class="headline">
+                <img src="images/headline.jpeg" class="headlineImg">
+                <span class="headlineName">Reiss Nelson</span>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
 </body>
 </html>
